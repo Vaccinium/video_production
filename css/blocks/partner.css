@@ -1,0 +1,14 @@
+.partners {
+  background: #F4F5F5;
+}
+.partners__list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: -70px;
+
+}
+
+.partners__item {
+  flex-basis: 25%;
+  
+}

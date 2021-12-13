@@ -1,0 +1,21 @@
+.paginator {
+  display: flex;
+  justify-content: center;
+}
+
+.paginator__list{
+  display: flex;
+
+}
+.paginator__link {
+  color:#fff;
+  background: transparent;
+
+  padding: 7px 12px;
+  border-radius: 50%;
+
+}
+.paginator__link--active {
+  background: #FF5500;
+
+}
