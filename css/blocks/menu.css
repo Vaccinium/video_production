@@ -1,0 +1,39 @@
+.menu {
+  top: 47px;
+  left: 50%;
+  transform: translateX (-50%);
+
+}
+
+
+.menu__list {
+  display: flex;
+}
+
+.menu__item {
+  
+  margin-right: 54px;
+  color: #fff;
+}
+
+.menu__item:last-child {
+  margin-right: 0;
+}
+
+.logo__link {
+  margin-right: 241px;
+
+}
+.menu__link {
+  color: #fff;
+
+}
+
+.menu__link:hover {
+  color: #FF5500;
+
+}
+
+.menu__link--active {
+  color: #FF5500;
+}
