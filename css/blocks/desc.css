@@ -1,0 +1,15 @@
+.desc {
+  display: flex;
+  text-align: left;
+  width: 776px;
+  margin-right:  0;
+  text-transform: uppercase;
+  margin-bottom: 150px
+}
+
+.desc__title {
+  font-weight: 800;
+  font-size: 72px;
+  line-height: 98px;
+  margin-bottom: 84px ;
+}

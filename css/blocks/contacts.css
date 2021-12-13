@@ -1,0 +1,20 @@
+.contacts {
+  font-style: normal;
+  text-align: right;
+  right: 0;
+  top: 47px;
+}
+
+.contacts__tel {
+  font-size: 26px;
+  color: #fff;
+  margin-bottom: 4px;
+
+}
+
+.contacts__schedule {
+  font-size: 13px;
+  line-height: 20px;
+  text-decoration-line: underline;
+  color: #FF3D00;
+}
