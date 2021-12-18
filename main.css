@@ -3,7 +3,6 @@
 @import url('./css/layout/base.css');
 
 @import url('./css/blocks/header.css');
-@import url('./css/blocks/logo.css');
 @import url('./css/blocks/menu.css');
 @import url('./css/blocks/contacts.css');
 @import url('./css/blocks/preview.css');
@@ -17,3 +16,5 @@
 
 @import url('./css/blocks/services.css');
 @import url('./css/blocks/partner.css');
+@import url('./css/blocks/services_main.css');
+@import url('./css/blocks/desc.css');

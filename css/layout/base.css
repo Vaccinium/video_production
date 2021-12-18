@@ -68,11 +68,12 @@ button {
 }
 
 .main-page-wrapper {
-  background: url("./img/hero.png") center top no-repeat, url("./img/bottom-pic.png");
+  background: url("../../img/hero.png") center top no-repeat, url("../../img/bottom-pic.png");
 }
 
 .button {
   background: #FF5500;
+  font-weight: bold;
   border-radius: 35px;
   font-size: 14px;
   text-transform: uppercase;
@@ -80,4 +81,15 @@ button {
   padding: 19px 54px;
   cursor: pointer;
   border: 2px solid transparent;
+}
+
+.active__button {
+  background: transparent;
+  border: 2px solid #FF5500;
+  color: #FF5500;
+}
+
+.img {
+  display: block;
+  max-width: 100%;
 }

@@ -1,14 +1,31 @@
-.partners {
+.inner-section {
   background: #F4F5F5;
+  color: black;
+  padding: 95px 0;
 }
+
 .partners__list {
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: -70px;
+  margin-left: -30px;
+}
+
+.inner-section__title {
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 65px;
+  color: #1A1B1E;
+  margin-bottom: 82px;
+}
+
+.partners__link {
+  text-decoration: none;
+  display: flex;
+  align-items:  center;
+  justify-content: center;
+  width: 270px;
+  height: 100px;
+  margin-right: 20px;
 
 }
 
-.partners__item {
-  flex-basis: 25%;
-  
-}

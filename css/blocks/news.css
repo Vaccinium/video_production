@@ -38,6 +38,7 @@ line-height: 21px;
 }
 .news__content {
   margin: 0 28px 26px;
+  position: relative;
 }
 
 .news__subtitle {

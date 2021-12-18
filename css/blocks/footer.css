@@ -2,6 +2,16 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background: #17191C;
 }
 
+.main--footer {
+  border-top: 1px solid #9A9A9A30;
+  padding-top: 42px;
+  margin-bottom: 43px;
+}
 
+.inner-footer__container {
+  padding: 43px 0;
+  
+}

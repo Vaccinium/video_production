@@ -1,8 +1,7 @@
 .contacts {
   font-style: normal;
   text-align: right;
-  right: 0;
-  top: 47px;
+
 }
 
 .contacts__tel {
@@ -17,4 +16,11 @@
   line-height: 20px;
   text-decoration-line: underline;
   color: #FF3D00;
+}
+
+.contacts__text {
+  margin-bottom: 6px;
+  color: #9A9A9A;
+  font-size: 11px;
+  line-height: 20px;
 }

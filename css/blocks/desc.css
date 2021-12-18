@@ -10,6 +10,7 @@
 .desc__title {
   font-weight: 800;
   font-size: 72px;
-  line-height: 98px;
-  margin-bottom: 84px ;
+  line-height: 1;
+  margin-top: 120px;
+  margin-bottom: 84px;
 }
