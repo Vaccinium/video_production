@@ -1,0 +1,236 @@
+
+.reviews__item {
+  margin-bottom: 20px;
+
+}
+
+.reviews {
+  column-count: 2;
+  column-gap: 30px;
+  margin-bottom: 76px;
+  margin-top: 94px;
+}
+
+.review {
+  display: inline-flex;
+  flex-direction: column;
+  padding: 50px 28px;
+  background:#F4F5F5;
+  
+}
+
+.avatar {
+  width: 140px;
+  height: 140px;
+  overflow: hidden;
+  border-radius: 50%;
+
+}
+
+.review__header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+  
+}
+
+
+.review__user {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 42px;
+  color: #2E77A4;
+  margin-bottom: 11px;
+}
+
+.review__user:after {
+  content: url("../../img/vk-blue\ 1.png");
+  height: 29px;
+}
+
+.review__tags {
+  display: flex;
+  align-items: flex-start;
+
+}
+
+.tag {
+  font-size: 13px;
+  color: #303030;
+  padding: 10px 25px;
+  border-radius: 35px;
+  background: #E7E7E7;
+}
+
+.tag__bg__active {
+  background: #F2D4C9;
+}
+
+.review__title {
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 42px;
+  color: #202020;
+  margin-bottom: 13px;
+
+}
+
+.review__content-text {
+  margin-bottom: 49px;
+  font-size: 16px;
+  line-height: 27px;
+  color: #818181;
+}
+
+.review__date {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 27px;
+  color: #1A1B1E;
+}
+
+
+.review__photo {
+  margin-right: 17px;
+}
+
+.separator {
+  min-height: 363px;
+  background: url('../../img/party.png')center no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #FFFFFF;
+
+}
+
+.separator__content {
+  max-width: 50%;
+
+}
+
+.separator__title {
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 65px;
+  
+}
+
+.inner__section {
+  background: #F4F5F5;
+}
+
+.form__row {
+  display: flex;
+  margin-bottom: 26px;
+
+}
+
+.form__input {
+  flex: 1;
+  margin-right: 28px;
+  border-radius: 5px;
+  border: none;
+  background: #fff;
+  padding: 19px 30px 21px;
+  font-size: 18px;
+  color: #1A1B1E;
+}
+
+.form__input:last-child {
+  margin-right: 0;
+}
+
+.form__input::placeholder {
+  color: #666666;
+}
+
+.inner__section__title {
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 49px;
+  color: #202020;
+  text-transform: uppercase;
+  margin-top: 79px;
+  margin-bottom: 56px;
+
+}
+
+.form__input--textarea {
+  height: 235px;
+  color: #666666;
+  resize: none;
+}
+
+.form__controls {
+  display: flex;
+  margin-bottom: 33px;
+
+}
+
+.form__controls-title {
+  width: 40%;
+  font-size: 18px;
+  line-height: 25px;
+  color: #1A1B1E;
+
+}
+
+.controls {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -13px;
+  margin-bottom: -10px;
+}
+
+.controls__item {
+  margin-right: 13px;
+  margin-bottom: 10px;
+}
+/*
+.controls__item:hover {
+  background: #F2D4C9;
+  transition: background .4s;
+}
+*/
+.controls__elem {
+  cursor: pointer;
+}
+
+.controls__checkbox:checked ~ .controls__tag {
+  background: #F2D4C9;
+}
+
+.controls__checkbox {
+  display: none;
+}
+
+
+.button__color__grey {
+  background: #8E8E8E;
+  border-radius: 35px;
+  color: #fff;
+}
+
+.button__color__grey:hover {
+  background: #FF5500;
+
+}
+
+.form__button {
+  margin-right: 13px;
+}
+
+.form__button:last-chold {
+  margin-right: 0;
+}
+
+.form__btns {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 96px;
+
+}

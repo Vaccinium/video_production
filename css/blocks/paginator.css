@@ -2,12 +2,12 @@
   display: flex;
   justify-content: center;
   text-align: space-between;
-  font-weight: bold;
   font-size: 16px;
 }
 
 .paginator__list{
   display: flex;
+  font-weight: bold;
 
 }
 .paginator__display {
@@ -16,17 +16,18 @@
 }
 
 .paginator__link {
-  color:#fff;
   background: transparent;
   padding: 7px 12px;
   border-radius: 50%;
-  line-height: bold;
   margin-right: 4px;
-
 }
+
 .paginator__link--active {
   background: #FF5500;
   color:#fff;
 
 }
 
+.paginator--theme--light {
+  color: black;
+}
