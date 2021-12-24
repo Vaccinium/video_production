@@ -120,6 +120,7 @@
 
 .inner__section {
   background: #F4F5F5;
+  padding-bottom: 96px;
 }
 
 .form__row {
@@ -190,12 +191,12 @@
   margin-right: 13px;
   margin-bottom: 10px;
 }
-/*
+
 .controls__item:hover {
   background: #F2D4C9;
   transition: background .4s;
 }
-*/
+
 .controls__elem {
   cursor: pointer;
 }
@@ -224,13 +225,12 @@
   margin-right: 13px;
 }
 
-.form__button:last-chold {
+.form__button:last-child {
   margin-right: 0;
 }
 
 .form__btns {
   display: flex;
   justify-content: flex-end;
-  margin-bottom: 96px;
 
 }
