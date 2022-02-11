@@ -1,230 +1,451 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./main.css">
-  <title>Video production| Main page</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Surfboard</title>
+  <link rel="stylesheet" href="./css/main.css">
 </head>
 
 <body>
-  <div class="wrapper main-page-wrapper">
-    <div class="container">
-      <header class="header">
-        <div class="logo">
-          <a href="#" class="logo__link">
-            <img src="img/logo.png" alt="Video_production" class="logo__img">
-          </a>
-        </div>
-        <nav class="menu">
-          <ul class="menu__list">
-            <li class="menu__item">
-              <a href="№" class="menu__link menu__link--active">Главная</a>
-            </li>
-            <li class="menu__item">
-              <a href="#" class="menu__link">Услуги</a>
-            </li>
-            <li class="menu__item">
-              <a href="#" class="menu__link">Отзывы</a>
-            </li>
-          </ul>
-        </nav>
-        <address class="contacts">
-          <a href="tel:+78007003030" class="contacts__tel">8 800 700 30 30</a>
-          <div class="dropdown">
-            <a href="#" class="dropdown__link">График работы</a>
-            <div class="dropdown__menu">
-              <ul class="dropdown__list">
-                <li class="dropdown__item dropdown__item__black">пн-вс:09:00-20:00</li>
-                <li class="dropdown__item">Обед:14:00-14:30</li>
+  <div class="wrapper">
+    <div class="maincontent">
+      <section class="section surfboard-section">
+        <div class="container surfboard__container">
+          <header class="header">
+            <img src="./img/Vector.png" alt="surfboard logo" class="logo">
+            <nav class="menu">
+              <ul class="menu__list">
+                <li class="menu__item">
+                  <a href="#" class="menu__link">О нас</a>
+                </li>
+                <li class="menu__item">
+                  <a href="#" class="menu__link">Батончики</a>
+                </li>
+                <li class="menu__item">
+                  <a href="#" class="menu__link">Команда</a>
+                </li>
+                <li class="menu__item">
+                  <a href="#" class="menu__link">Меню</a>
+                </li>
+                <li class="menu__item">
+                  <a href="#" class="menu__link">Отзывы</a>
+                </li>
+                <li class="menu__item">
+                  <a href="#" class="menu__link">Как мы работаем</a>
+                </li>
+                <li class="menu__item">
+                  <a href="#" class="menu__link">Контакты</a>
+                </li>
               </ul>
-            </div>
+            </nav>
+            <a href="tel:+78009039090" class="phone-number header__phone-number">
+              <span class="phone-number__icon">
+                <img src="./img/phone_icon.svg" alt="phone icon" class="phone-number__icon-elem">
+              </span>
+              <span class="phone-number__text">8 800 903 90 90</span>
+            </a>
+            <a href="" class="hamburger">
+              <span class="hamburger__plank"></span>
+              <span class="hamburger__plank"></span>
+              <span class="hamburger__plank"></span>
+            </a>
+          </header>
+          <div class="surfboard__title-section">
+            <h1 class="surfboard__main-title">Профессиональные доски для серфинга</h1>
+            <div class="surfboard__title-desc">Самый большой выбор серфбордов в мире</div>
+            <a href="#" class="btn btn--theme--yellow">Заказать</a>
           </div>
-        </address>
-      </header>
-      <main class="main">
-        <div class="preview">
-          <h2 class="preview__title">снимем для вас креативное видео</h2>
-          <p class="preview__text">Креативный видеопродакшн полного цикла</p>
-          <button class="preview__button button button--border">Подробнее</button>
-        </div>
-        <div class="features">
-          <ul class="features__list">
-            <li class="features__item">
-              <div class="features__icon">
-                <img src="./img/tv.png" alt="advertisement" class="features__icon-picture" />
-              </div>
-              <div class="features__content">
-                <h3 class="features__subtitle">Реклама</h3>
-                <div class="features__description">
-                  <div class="features__description__block">От <b>5</b> человек на проект</div>
-                  <div class="features__description__block"> <b>28</b> дней работы в среднем</div>
+          <div class="surfboard__icons-section">
+            <ul class="features">
+              <li class="features__item feature">
+                <div class="feature__icon">
+                  <img src="./img/surfboard.svg" alt="" class="board icon">
                 </div>
-                <div class="features__text">
-                  Креатив и производство рекламы, документального и корпоративного контента.
-                </div>
-              </div>
-              <button class="features__button button active__button">Подробнее</button>
-            </li>
-            <li class="features__item">
-              <div class="features__icon">
-                <img src="./img/clapper.png" alt="video" class="features__icon-picture" />
-              </div>
-              <div class="features__content">
-                <h3 class="features__subtitle">Видео</h3>
-                <div class="features__description">
-                  <div class="features__description__block">От <b>7</b> человек
-                    на проект</div>
-                  <div class="features__description__block"> <b>21</b> дней работы
-                    в среднем</div>
-                </div>
-                <div class="features__text">
-                  Вы решили представиться своим слушателям, пополнить свой творческий багаж качественным видео?
-                  Прекрасно!
-                </div>
-              </div>
-              <button class="features__button button">Подробнее</button>
-            </li>
-            <li class="features__item">
-              <div class="features__icon">
-                <img src="./img/film.png" alt="wedding" class="features__icon-picture" />
-              </div>
-              <div class="features__content">
-                <h3 class="features__subtitle">Свадьба</h3>
-                <div class="features__description">
-                  <div class="features__description__block">От <b>2</b> человек
-                    на проект</div>
-                  <div class="features__description__block"> <b>30</b> дней работы
-                    в среднем</div>
-                </div>
-                <div class="features__text">
-                  Получите живое видео своего самого счастливого дня, которое Вы будете пересматривать снова и снова.
-                </div>
-              </div>
-              <button class="features__button button active__button">Подробнее</button>
-            </li>
-          </ul>
-        </div>
-        <div class="news">
-          <h2 class="news__title">Новости и акции</h2>
-          <ul class="news__list">
-            <li class="news__item">
-              <img src="./img/camera.png" alt="camera" class="news__img">
-              <div class="news__content">
-                <time class="news__date">
-                  <div class="news__date-month">Декабрь</div>
-                  <div class="news__date-year">2021</div>
-                </time>
-                <div class="news__subtitle">Снимем ваш клип на 50% дешевле</div>
-                <div class="news__text">В честь Новогодних праздников мы раздаем огромные скидки, успейте забронировать
-                  даты. </div>
-              </div>
-            </li>
-            <li class="news__item">
-              <img src="./img/wedding.png" alt="wedding" class="news__img">
-              <div class="news__content">
-                <time class="news__date">
-                  <div class="news__date-month">Декабрь</div>
-                  <div class="news__date-year">2019</div>
-                </time>
-                <div class="news__subtitle">Акция для молодоженов 30%</div>
-                <div class="news__text">Успевайте забронировать даты. Пока еще есть места на декабрь. Удачи и всех благ!
-                </div>
-              </div>
-            </li>
-          </ul>
-          <div class="paginator">
-            <div class="paginator__display">
-              Страница <span class="paginator__display-current">1</span> из
-              <span class="paginator__display-all">7</span>
-            </div>
-            <ul class="paginator__list">
-              <li class="paginator__item">
-                <a href="#" class="paginator__link paginator__link--active">1</a>
+                <div class="feature__text">Уникальный дизайн</div>
               </li>
-              <li class="paginator__item">
-                <a href="#" class="paginator__link">2</a>
+              <li class="features__item feature">
+                <div class="feature__icon">
+                  <img src="./img/table.svg" alt="" class="table icon">
+                </div>
+                <div class="feature__text">Прочные материалы</div>
               </li>
-              <li class="paginator__item">
-                <a href="#" class="paginator__link">3</a>
-              </li>
-              <li class="paginator__item">
-                <a href="#" class="paginator__link">4</a>
-              </li>
-              <li class="paginator__item">
-                <a href="#" class="paginator__link">5</a>
-              </li>
-              <li class="paginator__item">
-                <a href="#" class="paginator__link">6</a>
-              </li>
-              <li class="paginator__item">
-                <a href="#" class="paginator__link">7</a>
+              <li class="features__item feature">
+                <div class="feature__icon">
+                  <img src="./img/car.svg" alt="" class="car icon">
+                </div>
+                <div class="feature__text">Быстрая доставка</div>
               </li>
             </ul>
           </div>
         </div>
-        <div class="about">
-          <img src="./img/cameraman.png" alt="Camera_man" class="about__img">
-          <div class="about__content">
-            <div class="about__title">О нас</div>
-            <div class="about__text">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько
-              абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык
-              публичных выступлений в домашних условиях. </div>
-            <div class="about__button button button--border">Подробнее</div>
+      </section>
+      <section class="section benefits-section">
+        <div class="container">
+          <div class="headline">
+            <h2 class="section__title headline__title">почему Surfboard?</h2>
+            <div class="headline__subtitle">Мы создаем уникальные и качественные доски из прочных и экологичных
+              материалов.
+            </div>
+          </div>
+          <ul class="benefits">
+            <li class="benefits__item benefit">
+              <div class="benefit__image">
+                <div class="benefit__image-wrapper">
+                  <img src="./img/person.svg" alt="person" class="benefit__icon">
+                </div>
+              </div>
+              <div class="benefit__text">
+                <h3 class="benefit__title">Perfect Fit</h3>
+                <div class="benefit__desc">
+                  <p>Мы создаем доски по индивидуальным замерам. Мы учитываем при создании ваш рост, вес и уровень
+                    подготовки.
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li class="benefits__item benefit">
+              <div class="benefit__image">
+                <div class="benefit__image-wrapper">
+                  <img src="./img/island.svg" alt="island" class="benefit__icon">
+                </div>
+              </div>
+              <div class="benefit__text">
+                <h3 class="benefit__title">Strong</h3>
+                <div class="benefit__desc">
+                  <p>Мы используем только качественные и экологичные материалы. Ваша доска прослужит вам долгие годы.
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li class="benefits__item benefit">
+              <div class="benefit__image">
+                <div class="benefit__image-wrapper">
+                  <img src="./img/2board.svg" alt="surfboard" class="benefit__icon">
+                </div>
+              </div>
+              <div class="benefit__text">
+                <h3 class="benefit__title">Unique</h3>
+                <div class="benefit__desc">
+                  <p>Вы станете обладателем уникального серфборда. Доска будет выполнена по вашему уникальному дизайну.
+                  </p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="section products-section">
+        <div class="container">
+          <div class="products-slider">
+            <div class="products-slider__arrows">
+              <a href="#" class="product-slider__arrow product-slider__arrow--direction--prev"></a>
+              <a href="#" class="product-slider__arrow product-slider__arrow--direction--next"></a>
+            </div>
+            <ul class="products">
+              <li class="products__item product">
+                <div class="product__container">
+                  <div class="product__col">
+                    <div class="product__image">
+                      <img src="./img/1.png" alt="Лонгборд 2.0" class="product__image-elem">
+                    </div>
+                  </div>
+                  <div class="product__col">
+                    <div class="product__parameters">
+                      <div class="parameters">
+                        <div class="parameters__button">
+                          <div class="parameters__button-icon">
+                            <img src="./img/parameters.svg" alt="" class="parameters__button-icon-elem">
+                          </div>
+                          <div class="parameters__dropdown">
+                            <div class="parameters__container">
+                              <div class="parameters__content">
+                                <ul class="parameters__list">
+                                  <li class="parameters__title">
+                                    <div class="parameters__desc">
+                                      <img src="./img/parameters1.svg" alt="" class="parameters__icon">
+                                      <div class="parameters__desc-one">Длина доски</div>
+                                      <div class="parameters__desc-two">от 2,5 м</div>
+                                    </div>
+                                  </li>
+                                  <li class="parameters__title">
+                                    <div class="parameters__desc">
+                                      <img src="./img/parameters2.svg" alt="" class="parameters__icon">
+                                      <div class="parameters__desc-one">Ширина доски</div>
+                                      <div class="parameters__desc-two">от 40 см</div>
+                                    </div>
+                                  </li>
+                                  <li class="parameters__title">
+                                    <div class="parameters__desc">
+                                      <img src="./img/parameters3.svg" alt="" class="parameters__icon">
+                                      <div class="parameters__desc-one">Толщина</div>
+                                      <div class="parameters__desc-two">8 см</div>
+                                    </div>
+                                  </li>
+                                  <li class="parameters__title">
+                                    <div class="parameters__desc">
+                                      <img src="./img/parameters4.svg" alt="" class="parameters__icon">
+                                      <div class="parameters__desc-one">Срок службы</div>
+                                      <div class="parameters__desc-two">5 лет</div>
+                                    </div>
+                                  </li>
+                                  <li class="parameters__title">
+                                    <div class="parameters__desc">
+                                      <img src="./img/parameters5.svg" alt="" class="parameters__icon">
+                                      <div class="parameters__desc-one">Вес</div>
+                                      <div class="parameters__desc-two">7-8 кг</div>
+                                    </div>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <h2 class="products__title">Лонгборд 2.0</h2>
+                    <div class="products__text">Устойчивая доска для новичков. На них легко лежать, сидеть, грести,
+                      разгребаться на волны и ехать. Размер и плавучесть доски позволяет брать очень маленькие и пологие
+                      волны и не спеша, не прилагая особых усилий ехать по ним.
+                    </div>
+                    <ul class="products__values">
+                      <li class="products__values-item">
+                        <div class="products__values-desc">Длина доски</div>
+                        <h3 class="products__values-char">от 2,5 метров</h3>
+                      </li>
+                      <li class="products__values-item">
+                        <div class="products__values-desc">Ширина доски</div>
+                        <h3 class="products__values-char">от 40 сантиметров</h3>
+                      </li>
+                    </ul>
+                    <div class="products__container-cost">
+                      <div class="product__price">7000 р</div>
+                      <a href="#" class="btn btn--theme--yellow">Заказать</a>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
           </div>
         </div>
-      </main>
-      <footer class="footer main--footer">
-        <div class="logo">
-          <a href="#" class="logo__link">
-            <img src="./img/logo.png" alt="Video_production" class="logo__img">
-          </a>
-        </div>
-        <nav class="menu">
-          <ul class="menu__list">
-            <li class="menu__item">
-              <a href="№" class="menu__link">Главная</a>
-            </li>
-            <li class="menu__item">
-              <a href="#" class="menu__link">Услуги</a>
-            </li>
-            <li class="menu__item">
-              <a href="#" class="menu__link">Отзывы</a>
-            </li>
-          </ul>
-        </nav>
-        <div class="socials">
-          <ul class="socials__list">
-            <li class="socials__item">
-              <a href="#" class="socials__link">
-                <img src="./img/telegram.png" alt="telegramm" class="socials__icon">
+      </section>
+      <section class="section reviews-section">
+        <div class="container">
+          <h2 class="section__title">Отзывы</h2>
+          <div class="reviews__display">
+            <div class="reviews__display-inner">
+              <div class="reviews__avatar">
+                <img src="./img/blackhairgirl.jpg" alt="" class="reviews__avatar-img">
+              </div>
+              <article class="reviews__content">
+                <h3 class="reviews__title">Лучший дизайн</h3>
+                <div class="reviews__text">
+                  <p>
+                    Я увидела доски на сайте и влюбилась в их дизайн. К летнему сезону я заказала себе доску в
+                    SurfBoard. Дизайнер команды - волшебница! Она учла все мои предпочтения и комментарии. В итоге
+                    получился прекрасный дизайн. А я катаюсь на доске, которая мне нравится)
+                  </p>
+                </div>
+                <div class="reviews__author">Ольга Макарова
+                </div>
+              </article>
+            </div>
+          </div>
+          <ul class="reviews__switcher">
+            <li class="reviews__switcher__item switcher interactive-avatar interactive-avatar--active">
+              <a href="#" class="interactive-avatar__link">
+                <img src="./img/blackhairgirl.jpg" alt="black hair girl" class="interactive-avatar__img">
               </a>
             </li>
-            <li class="socials__item">
-              <a href="#" class="socials__link">
-                <img src="./img/vk.png" alt="vk" class="socials__icon">
+            <li class="reviews__switcher__item switcher interactive-avatar">
+              <a href="#" class="interactive-avatar__link">
+                <img src="./img/man1.jpg" alt="black hair girl" class="interactive-avatar__img">
               </a>
             </li>
-            <li class="socials__item">
-              <a href="#" class="socials__link">
-                <img src="./img/f.png" alt="facebook" class="socials__icon">
-              </a>
-            </li>
-            <li class="socials__item">
-              <a href="#" class="socials__link">
-                <img src="./img/in.png" alt="instagramm" class="socials__icon">
+            <li class="reviews__switcher__item switcher interactive-avatar">
+              <a href="#" class="interactive-avatar__link">
+                <img src="./img/man2.jpg" alt="black hair girl" class="interactive-avatar__img">
               </a>
             </li>
           </ul>
         </div>
-        <address class="contacts">
-          <div class="contacts__text">Бесплатный звонок по России</div>
-          <a href="tel:+78007003030" class="contacts__tel">8 800 700 30 30</a>
-        </address>
-      </footer>
+      </section>
+      <section class="section order-section section--color-font--white">
+        <div class="container order-container">
+          <h2 class="section__title order__title">Закажите доставку</h2>
+          <form class="form">
+            <div class="form__col">
+              <div class="form__row">
+                <label class="form__block">
+                  <div class="form__title">Имя</div>
+                  <input type="text" class="form__input">
+                </label>
+                <label class="form__block">
+                  <div class="form__title">Телефон</div>
+                  <input type="text" class="form__input">
+                </label>
+              </div>
+              <div class="form__row">
+                <label class="form__block">
+                  <div class="form__title">Улица</div>
+                  <input type="text" class="form__input">
+                </label>
+              </div>
+              <div class="form__row">
+                <label class="form__block">
+                  <div class="form__title">Дом</div>
+                  <input type="text" class="form__input">
+                </label>
+                <label class="form__block">
+                  <div class="form__title">Корпус</div>
+                  <input type="text" class="form__input">
+                </label>
+                <label class="form__block">
+                  <div class="form__title">Квартира</div>
+                  <input type="text" class="form__input">
+                </label>
+                <label class="form__block">
+                  <div class="form__title">Этаж</div>
+                  <input type="text" class="form__input">
+                </label>
+              </div>
+            </div>
+            <div class="form__col">
+              <div class="form__row">
+                <label class="form__block">
+                  <div class="form__title">Комментарий</div>
+                  <textarea class="form__input form__input--textarea"></textarea>
+                </label>
+              </div>
+              <div class="form__controls">
+                <label class="radio">
+                  <input type="radio" name="option" class="radio__elem">
+                  <div class="radio__visible"></div>
+                  <div class="radio__title">Оплата наличными</div>
+                </label>
+                <label class="radio">
+                  <input type="radio" name="option" class="radio__elem">
+                  <div class="radio__visible"></div>
+                  <div class="radio__title">Оплата картой</div>
+                </label>
+              </div>
+              <div class="form__controls">
+                <label class="radio radio--checkbox">
+                  <input type="checkbox" class="radio__elem">
+                  <div class="radio__visible"></div>
+                  <div class="radio__title">Не перезванивать</div>
+                </label>
+              </div>
+              <div class="form__btns">
+                <input type="submit" value="Заказать" class="btn btn--theme--yellow">
+                <input type="reset" value="Очистить" class="btn btn--theme--transparent">
+              </div>
+            </div>
+          </form>
+        </div>
+      </section>
+      <section class="section map__section">
+        <div class="container">
+          <img src="./img/map.png" alt="map" class="map">
+        </div>
+        <footer class="footer">
+          <div class="container footer__container">
+            <adress class="contacts">
+              <div class="contacts__place">Москва, ул.Новый Арбат, д.31/12</div>
+              <a href="tel:=78009039090" class="phone-number phone-number--theme-black">
+                <span class="phone-number__icon">
+                  <img src="./img/phone_icon.svg" alt="phone icon" class="phone-number__icon-elem">
+                </span>
+                <span class="phone-number__text">8 800 903 90 90</span>
+              </a>
+            </adress>
+            <ul class="socials__list">
+              <li class="socials__item">
+                <a href="#" class="socials__link">
+                  <img src="./img/vk.svg" alt="vk" class="socials__icon">
+                </a>
+              </li>
+              <li class="socials__item">
+                <a href="#" class="socials__link">
+                  <img src="./img/fb.svg" alt="facebook" class="socials__icon">
+                </a>
+              </li>
+              <li class="socials__item">
+                <a href="#" class="socials__link">
+                  <img src="./img/inst.svg" alt="instagramm" class="socials__icon">
+                </a>
+              </li>
+              <li class="socials__item">
+                <a href="#" class="socials__link">
+                  <img src="./img/twitter.svg" alt="twitter" class="socials__icon">
+                </a>
+              </li>
+            </ul>
+          </div>
+        </footer>
+      </section>
     </div>
+  </div>
+  <nav class="fixed-menu">
+    <ul class="fixed-menu__list">
+      <li class="fixed-menu__item fixed-menu__item--active">
+        <a href="" class="fixed-menu__link"></a>
+      </li>
+      <li class="fixed-menu__item">
+        <a href="" class="fixed-menu__link"></a>
+      </li>
+      <li class="fixed-menu__item">
+        <a href="" class="fixed-menu__link"></a>
+      </li>
+      <li class="fixed-menu__item">
+        <a href="" class="fixed-menu__link"></a>
+      </li>
+      <li class="fixed-menu__item">
+        <a href="" class="fixed-menu__link"></a>
+      </li>
+      <li class="fixed-menu__item">
+        <a href="" class="fixed-menu__link"></a>
+      </li>
+      <li class="fixed-menu__item">
+        <a href="" class="fixed-menu__link"></a>
+      </li>
+      <li class="fixed-menu__item">
+        <a href="" class="fixed-menu__link"></a>
+      </li>
+      <li class="fixed-menu__item">
+        <a href="" class="fixed-menu__link"></a>
+      </li>
+    </ul>
+  </nav>
+  <div class="fullscreen-menu active">
+    <a href="#" class="fullscreen-menu__close"></a>
+    <nav class="menu menu--vertical">
+      <ul class="menu__list">
+        <li class="menu__item">
+          <a href="#" class="menu__link">О нас</a>
+        </li>
+        <li class="menu__item">
+          <a href="#" class="menu__link">Серфборды</a>
+        </li>
+        <li class="menu__item">
+          <a href="#" class="menu__link">Команда</a>
+        </li>
+        <li class="menu__item">
+          <a href="#" class="menu__link">Меню</a>
+        </li>
+        <li class="menu__item">
+          <a href="#" class="menu__link">Отзывы</a>
+        </li>
+        <li class="menu__item">
+          <a href="#" class="menu__link">Как мы работаем</a>
+        </li>
+        <li class="menu__item">
+          <a href="#" class="menu__link">Контакты</a>
+        </li>
+      </ul>
+    </nav>
   </div>
 </body>
 
